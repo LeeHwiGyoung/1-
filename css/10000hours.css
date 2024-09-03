@@ -34,7 +34,12 @@ html {
 
 :root {
     --bg--color : #5B2386;
-
+    --main-color : #FFF;
+    --sub--color : #F5DF4D;
+    --bg--btn--color : #FCEE21;
+    --btn--shadow : 0px 0px 10px 0px #00000080;
+    --main--font : 'GmarketSansMedium';
+    --quote--img : url('../img/quotes.png');
 }
 
 body {
@@ -59,15 +64,31 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin : 19.9rem auto;
+    margin : 19.9rem auto 7rem;
+
+    font-family: var(--main--font);
+    font-weight: 400;
+    font-size: 2.4rem;
+    color : var(--main-color);
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
+
+}
+.main-title {
 }
 
-.logo-wrap img{
-   aspect-ratio: 564/112;
+.main-title img{
+    width: 100%;
+    aspect-ratio: 564/112;
+}
+
+main {
+    text-align: center;
 }
 
 .clock {
@@ -76,4 +97,91 @@ header {
     top : 50%;
     left : 50%;
     transform: translate(-50%, -50%);
+}
+
+.sub-title {
+    font-family: 'OTEnjoystoriesBA', sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    color : var(--sub--color);
+    margin : 12.5rem auto 7.8rem;
+}
+
+.quote {
+    background-image: var(--quote--img);
+    background-size: cover;
+    margin : 0 auto 10.2rem;
+    font-family: 'GmarketSansBold';
+    font-weight: 700;
+    text-align: center;
+  
+}
+
+.quote span {
+    font-family: 'GmarketSansMedium';
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap : 2.7rem;
+}
+
+form p {
+    font-size: 2.4rem;
+}
+
+form p input {
+    border-radius: 0.7rem;
+    font-size: 2.4rem;
+    padding : 1.7rem 0;
+    margin : 0 1.6rem;
+}
+
+form p input::placeholder {
+    text-align: center;
+    color: #BABCBE;
+}
+
+button {
+    background-color: var(--bg--btn--color);
+    padding : 2.1rem 4.9rem;
+     border-radius: 5.6rem ;
+    box-shadow: var(--btn--shadow);
+     font-family: 'GmarketSansBold';
+    font-size: 2.4rem;
+     color : var(--bg--color);
+}
+.btn-checktime {
+    margin: calc(11.5rem - 2.7rem) auto 14.7rem;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result span {
+    font-family: 'GmarketSansBold';
+    font-weight: 700;
+    font-size: 7.2rem;
+    margin : 0 1.2rem;
+}
+
+.btn-group {
+    display: flex;
+    margin-top: 12.7rem;
+    justify-content: center;
+    gap: 1.8rem;
+}
+
+footer {
+    font-family: 'Noto Sans KR';
+    font-size: 1.2rem;
+    font-weight: 400;   
+}
+.logo {
+    margin : 13rem auto 2rem;
 }
