@@ -163,18 +163,19 @@ button {
     color : var(--bg--color);
 }
 
-
-.btn-checktime {
+.checktime-wrap {
+    margin: calc(11.5rem - 2.7rem) auto 14.7rem;
     position: relative;
-    margin: calc(11.5rem - 2.7rem) 0 14.7rem;
 }
 
-.click {
+.checktime-wrap img {
     position: absolute;
+    object-fit: cover;
     width: 6.4rem;
+    right : -7.1rem;
     bottom : -2rem;
-    right: -7.1rem;
 }
+
 
 .result {
     display: flex;
@@ -266,21 +267,26 @@ footer {
         margin : 1.75rem 0.4rem;
     }
 
-    
+  
+    .checktime-wrap {
+        position: relative;
+        margin : calc(4.9rem - 1.75rem) 6.3rem 6.4rem 5.6rem;
+    }
+    .checktime-wrap img {
+        width: 4.3rem;
+        bottom : -1rem;
+        right : -4.9rem;
+    }
+
     .btn-checktime {
-        margin : calc(4.9rem - 1.75rem) 0 6.4rem;
-        padding: 2.3rem 4.9rem 2.1rem 4.9rem;
+        margin : 0;
+        position: relative;
+        padding: 1.9rem 3.65rem 1.7rem;
         border-radius: 1.3rem;
         font-size: 1.4rem;
     }
-    
-    .click {
-        position: absolute;
-        width: 6.4rem;
-        bottom : -2rem;
-        right: -7.1rem;
-    }
 
+    
     .result {
         gap :1.5rem;
     }
