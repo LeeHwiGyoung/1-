@@ -15,17 +15,23 @@
 - https://leehwigyoung.github.io/10000hours/
 ## 4. 프로젝트 구조 및 개발 일정
  ### 4.1 프로젝트 구조
+ ![alt text](image.png)
  ### 4.2  개발 일정
  | 날짜 |  개발 내용 | 
  | :---: | :---  |
- | 24.09.03 |  |
- | 24.09.04 |  |
- | 24.09.05 |  |
- | 24.09.06 |  |
+ | 24.09.03 | - PC 메인 페이지 마크업 및 반응형 CSS <br/> - 모바일 메인 페이지 마크업 및 반응형 CSS  |
+ | 24.09.05 | - 체크타임 버튼 옆 이미지 추가 <br/>  - input 마진 변경 |
+ | 24.09.06 | - 모달 창 마크업 및 반응형 CSS <br/> -코드 리뷰 후 웹 접근성 및 웹 표준 고려하여 마크업 수정 |
 
 ## 5.구현 화면
 ### 5.1 PC 화면
-
+- 메인 화면
+![alt text](PC_1-ezgif.com-video-to-gif-converter.gif)
+- 모달 창
+![alt text](<PC_1만 시간의 법칙 모달창.png>)
 ### 5.2 모바일 화면
-
+- 메인 화면
+![alt text](mobile_1-ezgif.com-video-to-gif-converter.gif)
+- 모달 창
+![alt text](<Mobile_1만 시간의 법칙 모달창.png>)
 ## 6. 개발하며 느낀점
